@@ -1,0 +1,29 @@
+/* src/index.css */
+nav {
+  background-color: #333;
+  padding: 1rem;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+}
+
+nav ul li a,
+nav ul li button {
+  color: white;
+  text-decoration: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+nav ul li button:hover,
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  padding: 2rem;
+}
